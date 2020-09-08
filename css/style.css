@@ -1,5 +1,4 @@
 body{
-    height: 3000px;
     padding: 0;
     margin: 0;
     background-color: #F7FCFC;
@@ -14,10 +13,6 @@ body{
 
 }
 
-img{
-    width: 100%;
-    height: 100%;
-}
 
   #form{
     width: 841px;
@@ -132,6 +127,83 @@ button{
     background: url('Vector.svg') no-repeat center;
     background-size:10px;
   }
+
+  #footer{
+    width: 1136px;
+    height: 120px;
+    margin: 124px  auto 20px auto;
+    border: 1px solid red;
+    position: relative;
+    
+
+  }
+
+  #social-img{
+    width: 250px;
+    display: flex;
+    margin-top:21px;
+    align-items: center;
+    padding-left: 2px;
+    border:1px solid red;
+  }
+
+  #social span{
+    padding:9px 0 0 1px;
+
+  }
+  #inst{
+    width: 13px;
+    height: 12px;
+    padding-right: 27px;
+
+    
+  }
+  #face{
+    width: 9px;
+    height: 17px;
+    padding-right: 29px;
+  }
+
+  #yout{
+    width: 17px;
+    height: 17px;
+  }
+  #mail{
+    font-size: 11px;
+
+  }
+  #email{
+    display: flex;
+    position: absolute;
+    right:0;
+    top:40px;
+    border:1px solid red;
+    font-size: 11px; 
+    justify-content:flex-end;
+    margin-right: 21px;
+    margin-bottom: 80px;
+  }
+
+  #adress{
+    display: flex;
+    position: absolute;
+    right:0;
+    margin-right: 21px;
+    top:66px;
+  }
+  #number{
+    display: flex;
+    position: absolute;
+    right:244px;
+    top:66px;
+  }
+  #reviews{
+    display: flex;
+    position: absolute;
+    right:409px;
+    top:66px;
+  }
+
   @media(min-width:1390px){
     .modal__check{
         display: block;
