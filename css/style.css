@@ -9,6 +9,11 @@ body{
     font-weight: normal;
 
  }
+img{
+    background-position:auto;
+
+}
+
   #form{
     width: 841px;
     position: relative;
