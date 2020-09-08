@@ -28,11 +28,12 @@ img{
 #text_center{
     width: 360px;
     margin-top: 103px;
-   margin-left: auto;
-   margin-right: auto;
-   text-align: center;
-   font-size: 14px;
-   line-height:24px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 14px;
+    line-height:24px;
+    margin-bottom: 80px;
 }
 #text-rotate{
     position: absolute;
@@ -46,13 +47,12 @@ img{
 }
 
 #text_2{
-    padding-top: 21px;
+    box-sizing: border-box;
+    padding-bottom: 19px;
 
 }
 .modal{
     display: block;
-
-
 }
 .modal__input{
     display: block;
@@ -84,7 +84,7 @@ button{
 }
 .modal__check{
     display: block;
-    margin: 0px auto 20px 561px;
+    margin: 0px auto 20px 541px;
     background-color:none
 
 }
@@ -108,7 +108,7 @@ button{
     z-index: -1;
     opacity: 0;
     background-color: none;
-    margin: 0px auto 20px 561px;
+    margin: 0px auto 20px 565px;
     float: left;
     margin-top:50px;
 }
@@ -131,4 +131,13 @@ button{
   #check:checked+label::before {
     background: url('Vector.svg') no-repeat center;
     background-size:10px;
+  }
+  @media(min-width:1390px){
+    .modal__check{
+        display: block;
+        margin: 0px auto 20px 625px;
+        background-color:none
+    
+    }
+    
   }
