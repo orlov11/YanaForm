@@ -76,6 +76,8 @@ body{
     text-transform: uppercase;
     margin-top:60px;
     font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    outline: 0;
 }
 .modal__check{
     display: block;
@@ -258,9 +260,9 @@ body{
   height: 29px;
   background-color: white;
   border:1px solid black;
-  }
-  #btn1:active{
-    background-color: #6BB4DD;
+  border-radius: 0px;
+  cursor: pointer;
+  outline: 0;
   }
 
   #pop-img{

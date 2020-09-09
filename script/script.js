@@ -15,6 +15,7 @@ function hideModal() {
 
 }
 
+
 modal.addEventListener('click', (e)=>{
     if(e.target == modal){
         hideModal();
@@ -25,10 +26,10 @@ modal.addEventListener('click', (e)=>{
 btn.addEventListener('submit', (e) =>{
     e.preventDefault();
     showModal();
+    setTimeout(hideModal, 3000)
 });
 
 btnClosed.addEventListener('click', (e) =>{
-    btnClosed.classList.add('blue');
     hideModal();
 });
 
