@@ -12,6 +12,7 @@ function showModal(){
 function hideModal() {
     modal.classList.add('hide');
     modal.classList.remove('show');
+    document.body.style.overflow = '';
 
 }
 

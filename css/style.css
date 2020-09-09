@@ -134,10 +134,7 @@ body{
     width: 1136px;
     height: 120px;
     margin: 124px  auto 20px auto;
-    /* border: 1px solid red; */
     position: relative;
-    
-
   }
 
   #social-img{
@@ -146,11 +143,10 @@ body{
     margin-top:21px;
     align-items: center;
     padding-left: 2px;
-    /* border:1px solid red; */
   }
 
   #social span{
-    font-size: 12pxs;
+    font-size: 12px;
     padding:9px 0 0 1px;
 
   }
@@ -180,7 +176,6 @@ body{
     position: absolute;
     right:0;
     top:30px;
-    /* border:1px solid red; */
     font-size: 11px; 
     justify-content:flex-end;
     margin-right: 21px;
@@ -251,8 +246,6 @@ body{
   .good{
     position: absolute;
     bottom:30px;
-    /* border: 1px solid #2E2E2E; */
-    /* padding: 4px 43px 6px 42px; */
     left:220px;
   }
   #btn1{
@@ -290,6 +283,12 @@ body{
         margin: 0px auto 20px 625px;
         background-color:none
     
+    }
+    #footer{
+      width: 1360px;
+      height: 120px;
+      margin: 124px  auto 20px auto;
+      position: relative;
     }
     
   }
