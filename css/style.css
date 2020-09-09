@@ -79,6 +79,11 @@ body{
     cursor: pointer;
     outline: 0;
 }
+
+.btn_min:active{
+  background-color:#2c6d78;
+
+}
 .modal__check{
     display: block;
     margin: 0px auto 20px 481px;
@@ -136,6 +141,10 @@ body{
     margin: 124px  auto 20px auto;
     position: relative;
   }
+  #footer span{
+    color: #8a8a8a;
+
+  }
 
   #social-img{
     width: 250px;
@@ -146,7 +155,7 @@ body{
   }
 
   #social span{
-    font-size: 12px;
+    font-size: 10px;
     padding:9px 0 0 1px;
 
   }
@@ -210,7 +219,7 @@ body{
   #root{
     display: flex;
     justify-content:center;
-    font-size: 10px;
+    font-size: 9px;
     margin-bottom: 6px;
   }
 
@@ -243,23 +252,63 @@ body{
   .good{
     position: absolute;
     bottom:30px;
-    left:220px;
+    /* left:220px; */
+    right: 80px;
+    bottom:56px;
   }
+  .good #span-1{
+    float: left;
+    width: 213px;
+    font-size: 15px;
+    line-height: 26px;
+    font-family: 'Yeseva One', cursive;
+    text-align: center;
+    position: relative;
+    top: -165px;
+    right: -315px;
+  }
+  .good #span-2{
+    float: right;
+    width: 213px;
+    height: 33px;
+    font-size: 10px;
+    line-height: 17px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    position: relative;
+    top: -45px;
+    right: -35px;
+
+  }
+
+
   #btn1{
+    position: relative;
   width:135px;
   height: 29px;
-  background-color: white;
-  border:1px solid black;
+  background-color: #3CB1C6;
+  color:white;
+  font-size: 11px;
+  border: none;
+  line-height: 19px;
   border-radius: 0px;
   cursor: pointer;
   outline: 0;
+  right:-135px;
+  bottom: -20px;
+  }
+
+  #btn1:active{
+    background-color:#2c6d78;
+
   }
 
   #pop-img{
     position: absolute;
     left:-1px;
     top: -1px;
-   width: 572px;
+   width: 280px;
+   height: 352px;
    padding-right:40px;
    
 
@@ -286,6 +335,12 @@ body{
       height: 120px;
       margin: 124px  auto 20px auto;
       position: relative;
+    }
+
+    .modal-dialog-pop{
+      width: 490px;
+      height: 270px;
+      margin: 60px 30%;
     }
     
   }
