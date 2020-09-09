@@ -27,7 +27,7 @@ modal.addEventListener('click', (e)=>{
 btn.addEventListener('submit', (e) =>{
     e.preventDefault();
     showModal();
-    setTimeout(hideModal, 3000)
+    // setTimeout(hideModal, 3000)
 });
 
 btnClosed.addEventListener('click', (e) =>{

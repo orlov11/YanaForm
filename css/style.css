@@ -210,11 +210,8 @@ body{
   #root{
     display: flex;
     justify-content:center;
-    /* position: absolute; */
     font-size: 10px;
     margin-bottom: 6px;
-    /* left: 450px;
-    right: 350px; */
   }
 
   .modal-pop{
@@ -231,7 +228,7 @@ body{
   .modal-dialog-pop{
     width: 490px;
     height: 270px;
-    margin: 40px auto;
+    margin: 60px 27%;
   }
 
   .modal-content-pop{
@@ -241,9 +238,7 @@ body{
     padding: 40px;
     background-color: #fff;
     border: 1px solid rgba(0,0,0,.2);
-    /* background: url('/поп-ап окно.png') no-repeat; */
-    background-size:500px; 
-   
+    background-size:500px;    
   }
   .good{
     position: absolute;
